@@ -6,32 +6,32 @@ appflyer-to-aki-prototype
 
 Confirm appsflyer is capturing and able to send the below data on all app and web customers. Specifically: 
 
-❓ PageTitle -> (* Possibly "EVENT_NAME")
-❓ IdentifierCanonical -> ?
-❓ UrlCanonical -> ?
-❓ SearchKeywords -> ?
-👎 CategoryName -> D.N.E.
-❓ ProductSKU -> ?
-👎 ProductName -> D.N.E.
-👎 ProductBrand -> D.N.E.
-👎 ProductCategory -> D.N.E.
-👎 OrderItemQuantity -> D.N.E.
-✅ OrderItemPrice "EVENT_VALUE:af_price"
-👎 OrderShippingMode -> D.N.E.
-👎 OrderShippingPrice -> D.N.E.
-👎 OrderShippingTax -> D.N.E.
-👎 OrderPriceTotal -> D.N.E. (* Note even for "purchase" af events)
-✅ Currency -> [ "CURRENCY", "SELECTED_CURRENCY", "EVENT_VALUE:af_currency"]
-👎 DeliveryMode -> D.N.E.
-✅ AppVersion -> "APP_VERSION"
-✅ PhoneBrand -> "PLATFORM"
-✅ PhoneModel -> "DEVICE_MODEL"
-✅ PhoneLanguage -> "LANGUAGE"
-✅ PhoneOsVersion -> "OS_VERSION"
-👎 Screen_dpi -> D.N.E.
-👎 Screen_height -> D.N.E.
-👎 Screen_width -> D.N.E.
-✅ AdvertisingId -> ["IDFA", "EVENT_VALUE:af_customer_id", "CUSTOMER_USER_ID", "APPSFLYER_ID"]
+* ❓ PageTitle -> (* Possibly "EVENT_NAME")
+* ❓ IdentifierCanonical -> ?
+* ❓ UrlCanonical -> ?
+* ❓ SearchKeywords -> ?
+* 👎 CategoryName -> D.N.E.
+* ❓ ProductSKU -> ?
+* 👎 ProductName -> D.N.E.
+* 👎 ProductBrand -> D.N.E.
+* 👎 ProductCategory -> D.N.E.
+* 👎 OrderItemQuantity -> D.N.E.
+* ✅ OrderItemPrice "EVENT_VALUE:af_price"
+* 👎 OrderShippingMode -> D.N.E.
+* 👎 OrderShippingPrice -> D.N.E.
+* 👎 OrderShippingTax -> D.N.E.
+* 👎 OrderPriceTotal -> D.N.E. (* Note even for "purchase" af events)
+* ✅ Currency -> [ "CURRENCY", "SELECTED_CURRENCY", "EVENT_VALUE:af_currency"]
+* 👎 DeliveryMode -> D.N.E.
+* ✅ AppVersion -> "APP_VERSION"
+* ✅ PhoneBrand -> "PLATFORM"
+* ✅ PhoneModel -> "DEVICE_MODEL"
+* ✅ PhoneLanguage -> "LANGUAGE"
+* ✅ PhoneOsVersion -> "OS_VERSION"
+* 👎 Screen_dpi -> D.N.E.
+* 👎 Screen_height -> D.N.E.
+* 👎 Screen_width -> D.N.E.
+* ✅ AdvertisingId -> ["IDFA", "EVENT_VALUE:af_customer_id", "CUSTOMER_USER_ID", "APPSFLYER_ID"]
 
 # AppsFlyer Task 2:
 
